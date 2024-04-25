@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ai-agent"
+version = "0.1.0"
+description = ""
+authors = ["IBleedIcare <ibleedicare@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+langchain = "^0.1.16"
+langchain-community = "^0.0.34"
+gradio = "^4.27.0"
+python-dotenv = "^1.0.1"
+unstructured = "^0.13.3"
+markdown = "^3.6"
+chroma = "^0.2.0"
+langchain-chroma = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
